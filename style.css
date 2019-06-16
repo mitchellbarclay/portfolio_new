@@ -4,6 +4,7 @@
 	height:100%;
 	position:fixed;
 	background-color:#4da9e2;
+	box-shadow: 1px 1px 1px grey;
 
 	
 
@@ -23,6 +24,7 @@
     margin-top:5px;
 	font-size:4.1vw;
 	line-height:6vw;
+	
 }
 
 #sidebar h2 {
@@ -44,6 +46,10 @@
 	font-size:30px;
 	transition: all 0.2s;
 	
+}
+
+.sidebarLink img {
+	height:100%;
 }
 
 a {
@@ -186,6 +192,7 @@ a {
 	text-align:right;
 
 	background-color:#8de575;
+	border-radius:10px 10px 0px 0px;
 }
 
 #aboutMe h1 {
@@ -374,7 +381,8 @@ a {
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 5px 10px;
+
 }
 
 .column {
@@ -389,6 +397,7 @@ a {
   width: 100%;
   cursor:pointer;
   transition:0.2s;
+  border-radius:5px;
 }
 
 .column img:hover {
