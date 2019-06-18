@@ -3,7 +3,7 @@
 	width:33%;
 	height:100%;
 	position:fixed;
-	background-color:#4da9e2;
+	background-color:#212121;
 	box-shadow: 1px 1px 1px grey;
 
 	
@@ -22,20 +22,26 @@
 	color:white;
 
     margin-top:5px;
-	font-size:4.1vw;
+	font-size:4.55vw;
 	line-height:6vw;
-	
+	font-weight:lighter;
+
 }
 
 #sidebar h2 {
 	color:white;
 
-	font-size:8.8vw;
+	font-size:9.5vw;
 	line-height:0px;
 
 	margin-left:0px;
+	font-weight:lighter;
 
 
+}
+
+#sidebar h1:hover, #sidebar h2:hover{
+	color:grey;
 }
 
 .sidebarLink {
@@ -63,7 +69,7 @@ a {
 }
 
 
-.sidebarLink p {
+/*.sidebarLink p {
 
 	margin-top:3px;
 	padding-top:12px;
@@ -74,6 +80,16 @@ a {
 	bottom:0;
 	font-size:25px;
 
+}*/
+
+#sidebar p {
+	color:white;
+	
+	margin-left:2.55%;
+	position:absolute;
+	bottom:0;
+	font-size:1vw;
+	font-weight:lighter;
 }
 
 #spacer {
@@ -191,14 +207,17 @@ a {
 	height:100px;
 	text-align:right;
 
-	background-color:#8de575;
+	background-color:#6d6d6d;
 	border-radius:10px 10px 0px 0px;
 }
+
 
 #aboutMe h1 {
 	padding-top:20px;
 	padding-right:20px;
 	font-size:35px;
+	color:white;
+	font-weight:lighter;
 }
 
 .video {
@@ -215,12 +234,14 @@ a {
 }
 
 .description h3 {
-	font-size:30px;
+	font-size:35px;
 	line-height:0px;
+	font-weight:lighter;
+	color:black;
 }
 
 .bigp {
-	font-size:12px;
+	font-size:15px;
 }
 
 .line {
@@ -315,6 +336,7 @@ a {
 	padding-left:10px;
 	padding-right:10px;
 	line-height:10px;
+	font-weight:lighter;
 }
 
 .text {
@@ -337,13 +359,32 @@ a {
 	background-color:white;
     padding:5vw;
 	margin:auto;
-	margin-top:2vh;
 	margin-bottom:2vh;
 	border-radius:10px;
-
-
 	box-shadow: 2px 2px 2px grey;
 
+}
+
+.contentBox202 {
+	width:80%;
+	background-color:white;
+    padding:5vw;
+	margin:auto;
+	margin-bottom:2vh;
+	border-radius:0px 0px 10px 10px;
+	box-shadow: 2px 2px 2px grey;
+
+}
+
+.contentBox3 {
+	width:95%;
+	height:100px;
+	background-color:white;
+
+	border-radius:10px 10px 0px 0px;
+	box-shadow: 2px 2px 2px grey;
+
+	margin:auto;
 
 }
 
@@ -421,11 +462,7 @@ a {
 	box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.9);
 	background-color: rgba(255, 255, 255, 0.9);
 	border-radius:30px;
-	
 
-
-
-	
 }
 
 #feature img {
@@ -448,6 +485,13 @@ a {
 	display:none;
 }
 
+#cross:hover {
+	filter:brightness(0.7);
+}
+
+#cross {
+	transition:0.2s;
+}
 
 
 .smallp {
@@ -459,7 +503,7 @@ body {
 	padding:0;
 	margin:0;
 	font-family: 'Noto Sans HK', sans-serif;
-	background-color:#baccd6;
+	background-color:#c1c1c1;
 
 
 }
@@ -524,6 +568,10 @@ body {
 }
 
 #aboutMe {
+	height:45px;
+}
+
+.contentBox3 {
 	height:45px;
 }
 
