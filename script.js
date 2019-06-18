@@ -11,6 +11,27 @@ document.addEventListener('keyup', function (event) {
 });
 
 
+function titles(){
+	var m = document.getElementById("mit");
+	var d = document.getElementById("des");
+
+	m.style.color = "grey";
+	d.style.color = "grey";
+
+}
+
+function titles2(){
+	var m = document.getElementById("mit");
+	var d = document.getElementById("des");
+
+	m.style.color = "white";
+	d.style.color = "white";
+
+}
+
+
+
+
 
 function feature1(){
 	var f = document.getElementById("feature");

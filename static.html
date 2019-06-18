@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="style.css">
 	<script src="script.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400,700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" href="mb.png">
+	<title> MB | Images </title>
 
 
 
@@ -21,17 +23,21 @@
 
 <body>
 
-<div id= "sidebar">
+	
+
+	<!-- SIDEBAR -->
+
+	<div id= "sidebar">
 
 
-		<a href = "index.html"><h1> mitchell barclay </h1></a>
+		<a href = "index.html"><h1 id = "mit" onmouseover = "titles();" onmouseout = "titles2();"> mitchell barclay </h1></a>
 
 		<div id = "spacer"> </div>
 
 		<a href="index.html"><div class = "sidebarLink">
 
-          <img src="img/sidebar/home.png">
-		
+			<img src="img/sidebar/home.png">
+
 
 		</div></a>
 
@@ -58,14 +64,20 @@
 
 		<div id="bottomTitle">
 
-		<a href = "index.html"><h2> DESIGN </h2></a>
-		<p> All Rights Reserved © 2019 | Mitchell Barclay </p>
+			<a href = "index.html"><h2 id = "des" onmouseover = "titles();" onmouseout = "titles2();"> DESIGN </h2></a>
+			<p> All Rights Reserved © 2019 | Mitchell Barclay | <a href="mailto:mitchellbarclay2@gmail.com" id="em"> Email </a> 
+			</p>
+
+		</div>
 
 	</div>
 
+	<!-- SIDEBAR -->
 
 
-	</div>
+
+
+
 
 	<div id = "content">
 
@@ -112,8 +124,18 @@
 
 			</div>
 
+			<br>
+
+			<div id = "footer">
+
+	     	</div>
+
+
+
 
 	     </div>
+
+
 
 	     <div id = "feature_darken">
 
@@ -125,9 +147,12 @@
 
 	     	<img src="img/static/cross.png" onclick="closer();" id="cross">
 
+
+
 	 
 
 	     </div>
+
 
 
 

@@ -40,9 +40,15 @@
 
 }
 
-#sidebar h1:hover, #sidebar h2:hover{
-	color:grey;
+
+#des, #mit{
+	transition:0.2s;
 }
+
+
+/*#sidebar h1:hover, #sidebar h2:hover{
+	color:grey;
+}*/
 
 .sidebarLink {
 	width:100%;
@@ -92,9 +98,20 @@ a {
 	font-weight:lighter;
 }
 
+
+
 #spacer {
 	height:15vh;
 }
+
+#sidebar a {
+	color:white;
+}
+
+#em:hover {
+	text-decoration:underline;
+}
+
 
 #content {
 	width:67%;
@@ -113,7 +130,7 @@ a {
 	margin:auto;
 	margin-top:2vh;
 	margin-bottom:2vh;
-	padding-bottom:1.5vw;
+	
 	text-align:center;
 	box-shadow: 2px 2px 2px grey;
 	border-radius:10px;
@@ -209,6 +226,16 @@ a {
 
 	background-color:#6d6d6d;
 	border-radius:10px 10px 0px 0px;
+}
+
+#footer {
+
+
+	height:50px;
+
+	background-color:#6d6d6d;
+	border-radius:0px 0px 10px 10px;
+    
 }
 
 
@@ -588,6 +615,11 @@ body {
 
 }
 
+
+
+#footer {
+	height:22px;
+}
 
 
 
