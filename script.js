@@ -39,7 +39,7 @@ function feature1(){
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/alien.png')";
+	f.style.backgroundImage = "url('img/static/alien.jpg')";
 
 }
 function feature2(){
@@ -88,7 +88,7 @@ function feature7(){
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/album.png')";
+	f.style.backgroundImage = "url('img/static/album.jpg')";
 }
 
 
@@ -99,7 +99,7 @@ function feature8(){
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/pres3.png')";
+	f.style.backgroundImage = "url('img/static/pres3.jpg')";
 }
 function feature9(){
 	var f = document.getElementById("feature");
@@ -131,7 +131,7 @@ function feature12(){
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/comic.jpeg')";
+	f.style.backgroundImage = "url('img/static/comic.jpg')";
 }
 function feature13(){
 	var f = document.getElementById("feature");
@@ -139,7 +139,7 @@ function feature13(){
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/journey.png')";
+	f.style.backgroundImage = "url('img/static/journey.jpg')";
 }
 function feature14(){
 	var f = document.getElementById("feature");
