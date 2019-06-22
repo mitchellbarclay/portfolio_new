@@ -71,7 +71,7 @@ a {
 .sidebarLink:hover {
 	height:80px;
 	font-size:35px;
-	background-color:#b5b5b5;
+	background-color:#89c48b;
 }
 
 
@@ -515,6 +515,27 @@ a {
 	cursor:pointer;
 	position:relative;
 
+
+}
+
+#featureStats {
+	width:100%;
+	background-color:rgba(0, 0, 0, 0.5);
+	bottom:0;
+	position:absolute;
+	border-radius:0px 0px 30px 30px;
+	opacity:0;
+	transition:0.2s;
+
+
+
+}
+
+#featureStats p {
+	padding-right:20px;
+	text-align:right;
+	color:white;
+	font-weight:lighter;
 
 }
 
