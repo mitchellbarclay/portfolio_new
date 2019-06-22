@@ -22,9 +22,10 @@
 	color:white;
 
     margin-top:5px;
-	font-size:4.5vw;
+	font-size:4.55vw;
 	line-height:6vw;
 	font-weight:lighter;
+	white-space:nowrap;
 
 }
 
@@ -608,6 +609,7 @@ body {
 
   #sidebar h1 {
   	font-size:8vw;
+  	white-space:normal;
   }
 
   .bigp {
