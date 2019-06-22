@@ -4,7 +4,7 @@
 	height:100%;
 	position:fixed;
 	background-color:#212121;
-	box-shadow: 1px 1px 1px grey;
+
 
 	
 
@@ -147,7 +147,6 @@ a {
 	margin-bottom:2vh;
 	
 	text-align:center;
-	box-shadow: 2px 2px 2px grey;
 	border-radius:10px;
 
 
@@ -239,7 +238,7 @@ a {
 	height:100px;
 	text-align:right;
 
-	background-color:#6d6d6d;
+	background-color:#69996b;
 	border-radius:10px 10px 0px 0px;
 }
 
@@ -405,7 +404,7 @@ a {
 	margin:auto;
 	margin-bottom:2vh;
 	border-radius:10px;
-	box-shadow: 2px 2px 2px grey;
+	
 
 }
 
@@ -416,7 +415,6 @@ a {
 	margin:auto;
 	margin-bottom:2vh;
 	border-radius:0px 0px 10px 10px;
-	box-shadow: 2px 2px 2px grey;
 
 }
 
@@ -426,7 +424,7 @@ a {
 	background-color:white;
 
 	border-radius:10px 10px 0px 0px;
-	box-shadow: 2px 2px 2px grey;
+
 
 	margin:auto;
 
