@@ -48,6 +48,8 @@ transition:0.2s;
 }
 
 
+
+
 /*#sidebar h1:hover, #sidebar h2:hover{
 color:grey;
 }*/
@@ -114,7 +116,7 @@ font-size:12px;
 font-weight:lighter;
 text-align:left;
 padding-top:15px;
-padding-left:10px;
+padding-left:30px;
 }
 
 
@@ -446,6 +448,10 @@ color:black;
 
 .bigp {
 font-size:15px;
+background-color:lightgrey;
+padding:10px;
+border-radius:20px;
+
 }
 
 .line {
@@ -517,20 +523,19 @@ border-color:#3d3d3d;
 
 
 .webDes{
-width: 57%;
+width: 52%;
 height: 21vw;
 float:right;
 display:table;
-
 
 
 }
 
 .webDes p {
 font-size:15px;
-padding-left:10px;
-padding-right:10px;
-
+background-color:lightgrey;
+border-radius:3vw;
+padding:20px;
 text-align:left;
 bottom:0;
 }
@@ -776,6 +781,7 @@ max-width: 100%;
 
 .bigp {
 font-size:12px;
+
 }
 
 .description h3 {
