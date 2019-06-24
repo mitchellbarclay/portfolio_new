@@ -11,6 +11,30 @@ document.addEventListener('keyup', function (event) {
 });
 
 
+function expand(){
+	var sb = document.getElementById('sidebar');
+	var c = document.getElementById('content');
+
+
+	if (sb.style.width === "100%"){
+
+	sb.style.width = "33%";
+	c.style.width = "67%";
+	sb.style.visibility = "visible";
+
+    }
+    else {
+    	sb.style.width = "0%";
+    	c.style.width = "100%";
+    	sb.style.visibility = "hidden";
+    }
+
+
+
+
+}
+
+
 function titles(){
 	var m = document.getElementById("mit");
 	var d = document.getElementById("des");
