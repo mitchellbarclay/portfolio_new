@@ -6,6 +6,8 @@ position:fixed;
 background-color:#212121;
 overflow:hidden;
 transition:0.2s;
+background-image:url("img/home/bg.png");
+background-size:100%;
 
 
 }
@@ -21,7 +23,7 @@ margin-bottom:-2.8vw;
 color:white;
 
 margin-top:5px;
-font-size:4.55vw;
+font-size:6.2vw;
 line-height:6vw;
 font-weight:lighter;
 white-space:nowrap;
@@ -162,6 +164,7 @@ text-align:center;
 border-radius:10px;
 
 
+
 }
 
 #pp {
@@ -194,6 +197,7 @@ height:300px;
 width:600px;
 border-radius:20px;
 margin-top:-285px;
+
 
 
 }
@@ -774,10 +778,7 @@ max-width: 100%;
 	font-size: 12px;
 }
 
-#sidebar h1 {
-	font-size:8vw;
-	white-space:normal;
-}
+
 
 .bigp {
 font-size:12px;
