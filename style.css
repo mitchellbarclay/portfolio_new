@@ -3,11 +3,12 @@ float:left;
 width:33%;
 height:100%;
 position:fixed;
-background-color:#212121;
-overflow:hidden;
+background-color:#c1c1c1;
+
 transition:0.2s;
-background-image:url("img/home/bg.png");
+
 background-size:100%;
+margin-top:15vh;
 
 
 }
@@ -31,14 +32,11 @@ white-space:nowrap;
 }
 
 #sidebar h2 {
-color:white;
-
-font-size:9.5vw;
+color:black;
 line-height:0px;
-
-margin-left:0px;
-font-weight:lighter;
-
+font-size:1.7vw;
+margin-left:5%;
+padding-left:10px;
 
 
 
@@ -57,29 +55,35 @@ color:grey;
 }*/
 
 .sidebarLink {
-width:97%;
+width:90%;
+margin-left:5%;
 background-color: #dbdbdb;
-height:60px;
+height:50px;
 cursor:pointer;
 font-size:30px;
 border-style:solid;
-border-width:1px 0px 1px 10px;
+border-color:#454545;
+border-width:4px;
 transition: all 0.2s;
-border-radius:10px;
+border-radius:32px;
+margin-top:5px;
 
 }
 
 .sidebarLink img {
 height:100%;
+margin-left:5px;
 }
+
 
 a {
 text-decoration:none;
 }
 
 .sidebarLink:hover {
-height:80px;
-font-size:35px;
+	padding-left:1vw;
+
+
 background-color:#89c48b;
 }
 
@@ -145,6 +149,8 @@ width:67%;
 height:100vh;
 float:right;
 transition:0.2s;
+margin-top:5vh;
+
 
 
 }
@@ -289,6 +295,11 @@ margin-top:2px;
 	display:none;
 }
 
+#content{
+	margin-top:8vw;
+
+}
+
 
 
 }
@@ -325,6 +336,11 @@ margin-top:2px;
 	height:540px;
 	margin-top:-530px;
 	margin-left:0px;
+}
+
+#content{
+	margin-top:3vw;
+
 }
 
 }
@@ -402,7 +418,7 @@ background-image:url("img/email2.png");
 
 padding-top:;
 
-height:100px;
+height:60px;
 text-align:right;
 
 background-color:#69996b;
@@ -421,9 +437,9 @@ border-radius:0px 0px 10px 10px;
 
 
 #aboutMe h1 {
-padding-top:20px;
+padding-top:5px;
 padding-right:20px;
-font-size:35px;
+font-size:30px;
 color:white;
 font-weight:lighter;
 }
@@ -444,14 +460,14 @@ padding-right:2vw;
 }
 
 .description h3 {
-font-size:35px;
+font-size:30px;
 line-height:0px;
 font-weight:lighter;
 color:black;
 }
 
 .bigp {
-font-size:15px;
+font-size:12px;
 background-color:lightgrey;
 padding:10px;
 border-radius:20px;
@@ -475,7 +491,7 @@ background-repeat:no-repeat;
 border-style:solid;
 border-radius:200px;
 cursor:pointer;
-transition: all 0.2s;
+transition: all 0.5s;
 border-width:5px;
 border-color:#7c7c7c;
 
@@ -859,182 +875,3 @@ padding-left:7px;
 
 
 
-/*p5 resize*/
-
-
-
-@media only screen and (max-width: 1650px) {
-
-#p5 {
-	    -ms-transform: scale(1.2);
--moz-transform: scale(1.2);
--o-transform: scale(1.2);
--webkit-transform: scale(1.2);
-transform: scale(1.2);
-}
-
-}
-
-@media only screen and (max-width: 1600px) {
-
-#p5 {
-	    -ms-transform: scale(1);
--moz-transform: scale(1);
--o-transform: scale(1);
--webkit-transform: scale(1);
-transform: scale(1);
-}
-
-}
-
-
-@media only screen and (max-width: 1500px) {
-
-#p5 {
-	    -ms-transform: scale(0.9);
--moz-transform: scale(0.9);
--o-transform: scale(0.9);
--webkit-transform: scale(0.9);
-transform: scale(0.9);
-}
-
-}
-
-
-@media only screen and (max-width: 1400px) {
-
-#p5 {
-	    -ms-transform: scale(0.8);
--moz-transform: scale(0.8);
--o-transform: scale(0.8);
--webkit-transform: scale(0.8);
-transform: scale(0.8);
-}
-
-}
-
-
-@media only screen and (max-width: 1300px) {
-
-#p5 {
-	    -ms-transform: scale(0.75);
--moz-transform: scale(0.75);
--o-transform: scale(0.75);
--webkit-transform: scale(0.75);
-transform: scale(0.75);
-}
-
-}
-
-
-@media only screen and (max-width: 1200px) {
-
-#p5 {
-	    -ms-transform: scale(0.7);
--moz-transform: scale(0.7);
--o-transform: scale(0.7);
--webkit-transform: scale(0.7);
-transform: scale(0.7);
-}
-
-}
-
-
-
-@media only screen and (max-width: 1100px) {
-
-#p5 {
-	    -ms-transform: scale(0.65);
--moz-transform: scale(0.65);
--o-transform: scale(0.65);
--webkit-transform: scale(0.65);
-transform: scale(0.65);
-}
-
-}
-
-
-@media only screen and (max-width: 1000px) {
-
-#p5 {
-	    -ms-transform: scale(0.6);
--moz-transform: scale(0.6);
--o-transform: scale(0.6);
--webkit-transform: scale(0.6);
-transform: scale(0.6);
-}
-
-}
-
-@media only screen and (max-width: 900px) {
-
-#p5 {
-	    -ms-transform: scale(0.53);
--moz-transform: scale(0.53);
--o-transform: scale(0.53);
--webkit-transform: scale(0.53);
-transform: scale(0.53);
-}
-
-}
-
-@media only screen and (max-width: 800px) {
-
-#p5 {
-	    -ms-transform: scale(0.47);
--moz-transform: scale(0.47);
--o-transform: scale(0.47);
--webkit-transform: scale(0.47);
-transform: scale(0.47);
-}
-
-}
-
-	@media only screen and (max-width: 700px) {
-
-#p5 {
-	    -ms-transform: scale(0.4);
--moz-transform: scale(0.4);
--o-transform: scale(0.4);
--webkit-transform: scale(0.4);
-transform: scale(0.4);
-}
-
-}
-
-	@media only screen and (max-width: 600px) {
-
-#p5 {
-	    -ms-transform: scale(0.32);
--moz-transform: scale(0.32);
--o-transform: scale(0.32);
--webkit-transform: scale(0.32);
-transform: scale(0.32);
-}
-
-}
-
-
-	@media only screen and (max-width: 500px) {
-
-#p5 {
-	    -ms-transform: scale(0.29);
--moz-transform: scale(0.29);
--o-transform: scale(0.29);
--webkit-transform: scale(0.29);
-transform: scale(0.29);
-}
-
-}
-
-		@media only screen and (max-width: 400px) {
-
-#p5 {
-	    -ms-transform: scale(0.24);
--moz-transform: scale(0.24);
--o-transform: scale(0.24);
--webkit-transform: scale(0.24);
-transform: scale(0.24);
-}
-
-}

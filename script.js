@@ -79,7 +79,7 @@ function feature1(){
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/alien.jpg')";
+	f.style.backgroundImage = "url('img/static/fbdata.jpg')";
 
 
 }
