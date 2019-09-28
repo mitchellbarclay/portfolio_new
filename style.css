@@ -3,44 +3,24 @@ float:left;
 width:33%;
 height:100%;
 position:fixed;
-background-color:#c1c1c1;
+
 
 transition:0.2s;
 
-background-size:100%;
-margin-top:15vh;
 
+/*margin-top:15vh;*/
+top:20%;
 
-}
-
-#bottomTitle {
-position:absolute;
-bottom:0;
-margin-bottom:-2.8vw;
-
-}
-
-#sidebar h1 {
-color:white;
-
-margin-top:5px;
-font-size:6.2vw;
-line-height:6vw;
-font-weight:lighter;
-white-space:nowrap;
-
-}
-
-#sidebar h2 {
-color:black;
-line-height:0px;
-font-size:1.7vw;
-margin-left:5%;
-padding-left:10px;
 
 
 
 }
+
+
+
+
+
+
 
 
 #des, #mit{
@@ -60,7 +40,8 @@ margin-left:5%;
 background-color: #dbdbdb;
 height:50px;
 cursor:pointer;
-font-size:30px;
+font-size:15px;
+color:black;
 border-style:solid;
 border-color:#454545;
 border-width:4px;
@@ -81,7 +62,7 @@ text-decoration:none;
 }
 
 .sidebarLink:hover {
-	padding-left:1vw;
+	padding-left:0.5vw;
 
 
 background-color:#89c48b;
@@ -149,7 +130,7 @@ width:67%;
 height:100vh;
 float:right;
 transition:0.2s;
-margin-top:5vh;
+margin-top:15vh;
 
 
 
@@ -757,7 +738,12 @@ body {
 padding:0;
 margin:0;
 font-family: 'Noto Sans HK', sans-serif;
-background-color:#c1c1c1;
+/*background-color:#c1c1c1;*/
+ background-image: linear-gradient(#c1c1c1, #9fbbcf);
+ height:100%;
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+
 
 
 
