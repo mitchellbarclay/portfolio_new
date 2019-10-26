@@ -3,98 +3,70 @@ float:left;
 width:33%;
 height:100%;
 position:fixed;
-
-
 transition:0.2s;
-
-
-/*margin-top:15vh;*/
-top:20%;
-
-
-
-
 }
-
-
-
-
-
-
 
 
 #des, #mit{
 transition:0.2s;
 }
 
-
-
-
-/*#sidebar h1:hover, #sidebar h2:hover{
-color:grey;
-}*/
+#home, #video, #images, #web {
+  padding-top:2vh;
+}
 
 .sidebarLink {
-width:90%;
-margin-left:5%;
-background-color: #dbdbdb;
-height:50px;
+width:12vh;
+background-color: white;
+height:12%;
 cursor:pointer;
 font-size:15px;
 color:black;
 border-style:solid;
-border-color:#454545;
-border-width:4px;
+border-color:black;
+border-width:6px;
 transition: all 0.2s;
-border-radius:32px;
-margin-top:5px;
+border-radius:400px;
+margin:auto;
+}
 
+#strip {
+	margin:auto;
+	width:18vh;
+	background:#636363;
+	height:100%;
+}
+
+#menu_strip {
+
+	height:100%;
+	position:fixed;
+	width:33%;
 }
 
 .sidebarLink img {
 height:100%;
-margin-left:5px;
 }
 
 
 a {
 text-decoration:none;
+transition:0.2s;
 }
 
 .sidebarLink:hover {
-	padding-left:0.5vw;
-
-
 background-color:#89c48b;
 }
 
 
-/*.sidebarLink p {
-
-margin-top:3px;
-padding-top:12px;
-padding-left:9px;
-line-height:30px;
-color:#232426;
-text-align:justify;
-bottom:0;
-font-size:25px;
-
-}*/
-
 #sidebar p {
 color:grey;
-
 margin-left:1%;
 position:absolute;
 bottom:0;
 margin-bottom:4px;
 font-size:1.4vw;
 font-weight:lighter;
-
-
-
-
 }
 
 #footer p {
@@ -106,10 +78,8 @@ padding-top:15px;
 padding-left:30px;
 }
 
-
-
 #spacer {
-height:15vh;
+height:22vh;
 }
 
 #sidebar a {
@@ -124,34 +94,23 @@ color:white;
 text-decoration:underline;
 }
 
-
 #content {
 width:67%;
 height:100vh;
 float:right;
 transition:0.2s;
-margin-top:15vh;
-
-
-
+padding-right:0px;
+margin-right:2vw;
 }
-
-
 
 .contentBox {
 width:95%;
 background-color:white;
-
 margin:auto;
 margin-top:2vh;
 margin-bottom:2vh;
 text-align:center;
-
-
 border-radius:10px;
-
-
-
 }
 
 #pp {
@@ -160,23 +119,16 @@ font-size:13px;
 margin-right:-35px;
 padding-left:20px;
 margin-bottom:0px;
-
 }
 
 #meP {
-
 padding-top:90px;
 padding-bottom:2vw;
 text-align:center;
 width:700px;
-
 margin:auto;
 overflow: hidden;
-
-
 }
-
-
 
 #textback {
 background-color:#d6d6d6;
@@ -184,9 +136,6 @@ height:300px;
 width:600px;
 border-radius:20px;
 margin-top:-285px;
-
-
-
 }
 
 #face {
@@ -194,12 +143,10 @@ float:right;
 height:400px;
 clear:left;
 margin-top:-75px;
-
 }
 
 #meP button {
 height:30px;
-
 text-align:left;
 border-radius:15px;
 cursor:pointer;
@@ -211,15 +158,12 @@ border-color:black;
 border-width:2px;
 background-color:#f7f7f7; 
 transition:0.2s;
-
-
 }
 
 
 #meP button:hover {
 background-color:#89c48b;
 color:white;
-
 }
 
 button p {
@@ -235,7 +179,6 @@ margin-right:5px;
 height:20px;
 float:left;
 margin-top:2px;
-
 }
 
 .short {
@@ -249,79 +192,53 @@ margin-top:2px;
 	width:620px;
 	padding-top:50px;
 }
-
 #face {
 	height:320px;
 	margin-top:-50px;
 }
-
 #textback {
 	width:500px;
 	height:240px;
 	margin-left:30px;
 	margin-top:-238px;
 }
-
 #pp {
 	width:580px;
 	font-size:11px;
 	padding-left:50px;
 }
-
 .short {
 	display:inline;
 }
-
 .long {
 	display:none;
 }
 
-#content{
-	margin-top:8vw;
-
 }
-
-
-
-}
-
-
 
 @media screen and (max-width: 950px){
-
-
 
 #meP {
 	width:350px;
 	padding-top:30px;
 }
-
 #pp {
 	width:310px;
 	text-align:justify;
 	padding-left:20px;
 	font-size:13px;
 }
-
 #face{
 	height:310px;
 	text-align:center;
 	margin-right:50px;
 	margin-left:50px;
 }
-
-
-
 #textback {
 	width:350px;
 	height:540px;
 	margin-top:-530px;
 	margin-left:0px;
-}
-
-#content{
-	margin-top:3vw;
-
 }
 
 }
@@ -331,34 +248,22 @@ margin-top:2px;
 #meP {
 	width:220px;
 }
-
 #pp {
 	width:190px;
-	
 	margin-left:-4px;
-
 }
-
 #textback {
 	width:220px;
 	height:600px;
 	margin-top:-600px;
 }
-
 #face {
 	height:200px;
 	margin-left:20px;
 	margin-right:30px;
 }
+
 }
-
-
-
-
-
-
-
-
 
 
 #cv {
@@ -396,26 +301,18 @@ background-image:url("img/email2.png");
 
 
 #aboutMe {
-
 padding-top:;
-
 height:60px;
 text-align:right;
-
-background-color:#69996b;
-border-radius:10px 10px 0px 0px;
+background-color:black;
+border-radius:10px 10px 10px 10px;
 }
 
 #footer {
-
-
 height:50px;
-
-background-color:#6d6d6d;
-border-radius:0px 0px 10px 10px;
-
+background-color:black;
+border-radius:10px 10px 10px 10px;
 }
-
 
 #aboutMe h1 {
 padding-top:5px;
@@ -552,15 +449,10 @@ font-weight:lighter;
 .text {
 display:table-cell;
 vertical-align: middle;
-
-
 }
 
 
-
-
 .webDiv {
-
 display:inline-block;
 }
 
@@ -571,8 +463,6 @@ padding:5vw;
 margin:auto;
 margin-bottom:2vh;
 border-radius:10px;
-
-
 }
 
 .contentBox202 {
@@ -582,22 +472,15 @@ padding:5vw;
 margin:auto;
 margin-bottom:2vh;
 border-radius:0px 0px 10px 10px;
-
 }
 
 .contentBox3 {
 width:95%;
 height:100px;
 background-color:white;
-
 border-radius:10px 10px 0px 0px;
-
-
 margin:auto;
-
 }
-
-
 
 .wrap {
 width: 95%;
@@ -605,30 +488,7 @@ height: 45vw;
 padding: 0;
 overflow: hidden;
 margin:auto;
-
-
 }
-
-#p5 {
-
-
-margin-top:3vw;
-
-width: 1280px;
-height: 786px;
-
-
--ms-transform-origin: 0 0;
--moz-transform-origin: 0 0;
--o-transform-origin: 0 0;
--webkit-transform-origin: 0 0;
-transform-origin: 0 0;
-
-
-
-}
-
-
 
 .row {
 display: flex;
@@ -739,14 +599,11 @@ padding:0;
 margin:0;
 font-family: 'Noto Sans HK', sans-serif;
 /*background-color:#c1c1c1;*/
- background-image: linear-gradient(#c1c1c1, #9fbbcf);
+/* background-image: linear-gradient(#c1c1c1, #9fbbcf);*/
+background:white;
  height:100%;
  background-repeat:no-repeat;
  background-attachment:fixed;
-
-
-
-
 }
 
 
@@ -818,9 +675,6 @@ height:45px;
 #pp {
 font-size:12px;
 }
-
-
-
 
 
 #footer {
