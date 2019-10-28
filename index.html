@@ -6,15 +6,16 @@
 	<link rel="stylesheet" href="style.css">
 	<script src="script.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 	<link rel="icon" type="image/png" href="mb.png">
 	<title> MB | Portfolio </title>
 </head>
 <body>
 
 
-    <div id = "bottom_bar">
-    	<p> All Rights Reserved © 2019 | Mitchell Barclay </p>
-    </div>
+	<div id = "bottom_bar">
+		<p> All Rights Reserved © 2019 | Mitchell Barclay </p>
+	</div>
 
 
 	<!-- SIDEBAR -->
@@ -32,11 +33,11 @@
 		<a href="#video"><div class = "sidebarLink">
 			<img src="img/sidebar/motion.png">
 		</div></a>
-		<a href="#images"><div class = "sidebarLink">
-			<img src="img/sidebar/static.png"> 
-		</div></a>
 		<a href="#web"><div class = "sidebarLink">
 			<img src="img/sidebar/web.png">
+		</div></a>
+		<a href="#images"><div class = "sidebarLink">
+			<img src="img/sidebar/static.png"> 
 		</div></a>
 	</div>
 
@@ -89,7 +90,7 @@
 
 			<div class = "contentBox">
 				<div id = "aboutMe">
-					<h1> video & animation </h1>
+					<h1> video <font size="-0.1">&</font> animation </h1>
 				</div>
 				<iframe  class="video" src="https://www.youtube-nocookie.com/embed/ElkHo1-FRtE?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<div class ="description"> <h3> Office Space </h3>
@@ -168,53 +169,50 @@
 
 		</div>
 
+
 		<!-- WEB PAGE -->
 
-		<div id= "web">
+		<div id="web">
 
-			<div class = "contentBox3">
+			<div class = "contentBox">
 				<div id = "aboutMe">
-					<h1> web design </h1>
+					<h1> web design</h1>
 				</div>
-			</div>
-			<div class = "contentBox202">
-				<div class = "webDiv">
-					<a href="https://mitchellbarclay.github.io/traveltrack"><div class = "webPic">
-					</div></a>
-					<div class = "webDes">
-						<div class = "text">
-							<h1> Travel Tracker </h1>
-							<p> Travel Track is a website designed to outline a concept for a mobile application. 
-							Designed to be responsive with different layouts for tablet, phone and desktop. </p>
-						</div>
-					</div>
+				<a href="https://mitchellbarclay.github.io/traveltrack"><div class = "web_preview" id ="travel"></div></a>
+				<div class ="description"> <h3> Travel Tracker </h3>
+					<p class = "bigp">  Travel Track is a website designed to outline a concept for a mobile application. Designed to be responsive with different layouts for tablet, phone and desktop.  
+					</p>
+					<p class="smallp">
+						<b>Code:</b> Mitchell Barclay <br>
+						<b> Design:</b> Mitchell Barclay <br>
+					</p>
+					<br>
 				</div>
 			</div>
 
-			<div class = "contentBox2">
-				<div class = "webDiv">
-					<a href="https://mitchellbarclay.github.io/project3/index.html"><div class = "webPic2">
-					</div></a>
-					<div class = "webDes">
-						<div class = "text">
-							<h1> eyePhone </h1>
-							<p> A parody website that takes inspiration from Apple's layout and products to make social commentary on privacy in the digital age. This includes a demo user interface of the imagined product.</p>
-						</div>
-					</div>
+			<div class = "contentBox">
+				<a href="https://mitchellbarclay.github.io/project3/"><div class = "web_preview" id ="eye"></div></a>
+				<div class ="description"> <h3> eyePhone </h3>
+					<p class = "bigp">  A parody website that takes inspiration from Apple's layout and products to make social commentary on privacy in the digital age. This includes a demo user interface of the imagined product.
+					</p>
+					<p class="smallp">
+						<b>Code:</b> Mitchell Barclay <br>
+						<b> Design:</b> Mitchell Barclay <br>
+					</p>
+					<br>
 				</div>
 			</div>
 
-			<div class = "contentBox2">
-				<div class = "webDiv">
-					<a href="https://mitchellbarclay.github.io/pro3/index.html"><div class = "webPic3">
-					</div></a>
-					<div class = "webDes">
-						<div class = "text">
-							<h1> Day Trip </h1>
-							<p> Developed as part of a team, Day Trip is a basic web application that chooses
-							a random activity suggestion and gives information on nearby locations.</p>
-						</div>
-					</div>
+			<div class = "contentBox">
+				<a href="https://mitchellbarclay.github.io/pro3/index.html"><div class = "web_preview" id ="daytrip"></div></a>
+				<div class ="description"> <h3> Day Trip </h3>
+					<p class = "bigp">  Developed as part of a team, Day Trip is a basic web application that chooses a random activity suggestion and gives information on nearby locations.
+					</p>
+					<p class="smallp">
+						<b>Code:</b> Mitchell Barclay, CJ Ekanayake, Jackie Xu <br>
+						<b> Design:</b> Mary Richards, CJ Ekanayake, Mitchell Barclay <br>
+					</p>
+					<br>
 				</div>
 			</div>
 
@@ -227,28 +225,21 @@
 			<div class = "contentBox">
 				<div id = "aboutMe">
 					<h1> images </h1>
-				</div>
+				</div><br><br>
 				<div class="row">
 					<div class="column">
-						<img src="img/static/thumb/fbdata.jpg" onclick="feature1();">
-						<img src="img/static/thumb/concept.png" onclick="feature2();">
-						<img src="img/static/thumb/magicmorning.jpg" onclick="feature3();">
-						<img src="img/static/thumb/pres2.png" onclick="feature4();">
-						<img src="img/static/thumb/richpic.png" onclick="feature5();">
-					</div>
-					<div class="column">
-						<img src="img/static/thumb/sink.jpg" onclick="feature6();">
 						<img src="img/static/thumb/album.jpg" onclick="feature7();">
-						<img src="img/static/thumb/pres3.jpg" onclick="feature8();">
-						<img src="img/static/thumb/yes.jpg" onclick="feature9();">
-						<img src="img/static/thumb/still.jpg" onclick="feature10();">
+						<img src="img/static/thumb/magicmorning.jpg" onclick="feature3();">
+						<img src="img/static/thumb/concept.png" onclick="feature2();">
+						
 					</div>
 					<div class="column">
 
-						<img src="img/static/thumb/fiji.jpg" onclick="feature11();">
-						<img src="img/static/thumb/comic.jpg" onclick="feature12();">
+
 						<img src="img/static/thumb/journey.jpg" onclick="feature13();">
-						<img src="img/static/thumb/3.jpg" onclick="feature14();">
+						<img src="img/static/thumb/fbdata.jpg" onclick="feature1();">
+						<img src="img/static/thumb/richpic.png" onclick="feature5();">
+						<img src="img/static/thumb/still.jpg" onclick="feature10();">
 					</div>
 				</div>
 				<br>
@@ -263,6 +254,9 @@
 			</div>
 
 		</div>
+		<br><br><br><br><br><br>
+
+
 
 	</div>
 
