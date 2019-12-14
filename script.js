@@ -74,7 +74,7 @@ function stats2(){
 function feature1(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "adobe photoshop";
+    document.getElementById("app").innerHTML = "Adobe Photoshop";
 
 
 	f.style.display = "block";
@@ -86,7 +86,7 @@ function feature1(){
 function feature2(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "adobe illustrator";
+    document.getElementById("app").innerHTML = "Adobe Illustrator";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -95,7 +95,7 @@ function feature2(){
 function feature3(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "adobe illustrator";
+    document.getElementById("app").innerHTML = "Adobe Illustrator";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -104,7 +104,7 @@ function feature3(){
 function feature4(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "adobe illustrator";
+    document.getElementById("app").innerHTML = "Adobe Illustrator";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -113,7 +113,7 @@ function feature4(){
 function feature5(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "adobe illustrator";
+    document.getElementById("app").innerHTML = "Adobe Illustrator";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -122,7 +122,7 @@ function feature5(){
 function feature6(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "adobe illustrator";
+    document.getElementById("app").innerHTML = "Adobe Illustrator";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -131,11 +131,11 @@ function feature6(){
 function feature7(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "painting";
+    document.getElementById("app").innerHTML = "Adobe Photoshop";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/album.jpg')";
+	f.style.backgroundImage = "url('img/static/richpic.png')";
 }
 
 
@@ -143,29 +143,29 @@ function feature7(){
 function feature8(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "google sketchup + adobe photoshop";
+    document.getElementById("app").innerHTML = "Adobe Photoshop";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/pres3.jpg')";
+	f.style.backgroundImage = "url('img/static/alien.jpg')";
 }
 function feature9(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "pen & paper";
+    document.getElementById("app").innerHTML = "Analogue painting";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/yes.jpg')";
+	f.style.backgroundImage = "url('img/static/album.jpg')";
 }
 function feature10(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "autodesk maya";
+    document.getElementById("app").innerHTML = "Pen & paper";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/still.jpg')";
+	f.style.backgroundImage = "url('img/static/magicmorning.jpg')";
 }
 function feature11(){
 	var f = document.getElementById("feature");
