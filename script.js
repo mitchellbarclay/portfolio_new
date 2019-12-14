@@ -226,7 +226,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("menu").style.top = "0";
   } else {
-    document.getElementById("menu").style.top = "-100px";
+    document.getElementById("menu").style.top = "-120px";
   }
   prevScrollpos = currentScrollPos;
 }
