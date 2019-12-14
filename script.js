@@ -79,54 +79,54 @@ function feature1(){
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/fbdata.jpg')";
+	f.style.backgroundImage = "url('img/static/nika1.png')";
 
 
 }
 function feature2(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "adobe photoshop";
+    document.getElementById("app").innerHTML = "adobe illustrator";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/concept.png')";
+	f.style.backgroundImage = "url('img/static/cb3.png')";
 }
 function feature3(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "pen & paper";
+    document.getElementById("app").innerHTML = "adobe illustrator";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/magicmorning.jpg')";
+	f.style.backgroundImage = "url('img/static/p3.png')";
 }
 function feature4(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "adobe photoshop";
+    document.getElementById("app").innerHTML = "adobe illustrator";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/pres2.png')";
+	f.style.backgroundImage = "url('img/static/pa1.png')";
 }
 function feature5(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "adobe photoshop";
+    document.getElementById("app").innerHTML = "adobe illustrator";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/richpic.png')";
+	f.style.backgroundImage = "url('img/static/cb2.png')";
 }
 function feature6(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "digital photograph edited w/ adobe photoshop";
+    document.getElementById("app").innerHTML = "adobe illustrator";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/sink.jpg')";
+	f.style.backgroundImage = "url('img/static/p2.png')";
 }
 function feature7(){
 	var f = document.getElementById("feature");
@@ -218,4 +218,15 @@ var fd = document.getElementById("feature_darken");
 	f.style.display = "none";
 	fd.style.display = "none";
 
+}
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("menu").style.top = "0";
+  } else {
+    document.getElementById("menu").style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
 }
