@@ -131,7 +131,7 @@ function feature6(){
 function feature7(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Adobe Photoshop";
+    document.getElementById("app").innerHTML = "A rich picture analyses of my dual disciplines.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -143,7 +143,7 @@ function feature7(){
 function feature8(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Adobe Photoshop";
+    document.getElementById("app").innerHTML = "Alien boy.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -152,7 +152,7 @@ function feature8(){
 function feature9(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Analogue painting";
+    document.getElementById("app").innerHTML = "Album cover - Mudbb Borcle.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -161,7 +161,7 @@ function feature9(){
 function feature10(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Pen & paper";
+    document.getElementById("app").innerHTML = "This one is what it is.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -170,38 +170,110 @@ function feature10(){
 function feature11(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "digital photograph edited w/ adobe photoshop";
+    document.getElementById("app").innerHTML = "There's a new sheriff in town.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/fiji.jpg')";
+	f.style.backgroundImage = "url('img/static/yes.jpg')";
+}
+function feature22(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Study notes.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/sktch.jpg')";
 }
 function feature12(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "pen & paper";
+    document.getElementById("app").innerHTML = "An unexpected house guest. Karori, Wellington.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/comic.jpg')";
+	f.style.backgroundImage = "url('img/static/ph/birb.jpg')";
 }
 function feature13(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "adobe photoshop";
+    document.getElementById("app").innerHTML = "Kyoto, Japan.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/journey.jpg')";
+	f.style.backgroundImage = "url('img/static/ph/jp1.jpg')";
 }
 function feature14(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "digital photograph edited w/ adobe photoshop";
+    document.getElementById("app").innerHTML = "Kyoto, Japan.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/3.jpg')";
+	f.style.backgroundImage = "url('img/static/ph/jp7.jpg')";
+}
+function feature15(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Bush dwelling. Wilton, Wellington.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/rain.jpg')";
+}
+function feature16(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Mobile photography exercise. Taken with my iPhone 8. Karori, Wellington.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/power.jpg')";
+}
+function feature17(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Tokyo, Japan.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/jp5.jpg')";
+}
+function feature18(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Kyoto, Japan.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/jp2.jpg')";
+}
+function feature19(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Kyoto, Japan.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/jp3.jpg')";
+}
+function feature20(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Tokyo, Japan.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/jp6.jpg')";
+}
+function feature21(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Tokyo, Japan.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/jp8.jpg')";
 }
 
 

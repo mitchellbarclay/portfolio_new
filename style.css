@@ -101,11 +101,11 @@ h4:hover{
 
 }
 #video_bg{
-	background-image: linear-gradient(to bottom right, #0F2027, #203A43, #f7797d);
+	background-image: linear-gradient(to bottom right, #3a7bd5, #3a6073);
 	background-attachment: fixed;
 }
 #web_bg{
-	background-image: linear-gradient(to bottom right, #1f4037, #99f2c8);
+	background-image: linear-gradient(#e74c3c, #000);
 	  background-attachment: fixed;
 
 }
@@ -115,7 +115,7 @@ h4:hover{
 
 }
 #video{
-	background-image: linear-gradient(#203A43, #f7797d, #0F2027);
+	background-image: linear-gradient(#77A1D3, #E684AE);
 
 
 }
@@ -126,12 +126,16 @@ h4:hover{
 }
 
 #web{
-		background-image: linear-gradient(#1f4037, #000);
+		background-image: linear-gradient(#FBD786, #f7797d, #000);
 
 }
 
 #images2 {
-	background-image: linear-gradient(#4CA1AF, #C4E0E5);
+	background-image: linear-gradient(to bottom right, #77A1D3, #79CBCA, #E684AE);;
+	background-attachment: fixed;
+}
+#images3 {
+	background-image: linear-gradient(#FBD786, #f7797d);
 	background-attachment: fixed;
 }
 
