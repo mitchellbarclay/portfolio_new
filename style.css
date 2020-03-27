@@ -82,7 +82,7 @@ h4:hover{
 
 
 .contentBoxH {
-	width:67%;
+	width:80%;
 	margin:auto;
 	padding-top:1vw;
 	text-align:center;
@@ -222,9 +222,10 @@ h4:hover{
 }
 
 #pp_parent{
-		background-color:white;
+	background-color:white;
 	border-radius:50px;
 	padding:30px;
+	margin:auto;
 
 }
 
@@ -659,17 +660,64 @@ h4:hover{
 		.web_preview{
 			height:13vw;
 		}
+
+				#pp_parent{
+
+
+	padding:20px;
+	width:90%;
+
+}
+
+
 	}
 
 
 
 	@media screen and (max-width: 800px) {
 
+h1 {
+	font-size:42px;
+}
+
+.title{
+	height:45px;
+}
+
+
+
+	.row2 {
+
+		width:85%;
+		padding-bottom:20px;
+		padding-top:10px;
+		margin:auto;
+	}
+
+.contentBoxH {
+	width:90%;
+	margin:auto;
+	padding-top:1vw;
+	text-align:center;
+	display:block;
+	margin-top:0vw;
+}
+
+#pp_parent{
+
+
+	padding:20px;
+	width:80%;
+	margin:auto;
+
+}
+
 		#menu{
 			height:80px;
 		}
 
 		.contentBox {
+			width:80%;
 
 
 		}
@@ -747,6 +795,7 @@ h4:hover{
 		.video {
 			height:38vw;
 			border-radius:15px;
+
 		}
 
 		.web_preview{
@@ -757,6 +806,16 @@ h4:hover{
 			border-width:6px;
 		}
 
+
+	}
+
+    @media screen and (max-width:750px){
+
+			.video {
+			height:38vw;
+			border-radius:15px;
+			margin-top:7vw;
+		}
 
 	}
 
@@ -889,7 +948,7 @@ h4:hover{
 			margin-top: 10px;
 		}
 		.title h1{
-			margin-top:18px;
+			margin-top:0px;
 		}
 
 	}
