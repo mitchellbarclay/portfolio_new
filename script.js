@@ -284,6 +284,24 @@ function feature23(){
 	fd.style.display = "block";
 	f.style.backgroundImage = "url('img/static/star.png')";
 }
+function feature24(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Adobe Illustrator";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/gala.png')";
+}
+function feature25(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Adobe Illustrator";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/gala2.png')";
+}
 
 
 
@@ -301,24 +319,6 @@ var fd = document.getElementById("feature_darken");
 
 }
 
-/* Toggle Nav with Raw JavaScript */
-// Set variables for key elements
-var mainNav = document.getElementsByName('images');
-var navToggle = document.getElementById('toggle');
-
-// Start by adding the class "collapse" to the mainNav
-mainNav.classList.add('collapsed');
-
-// Establish a function to toggle the class "collapse"
-function mainNavToggle() {
-    mainNav.classList.toggle('collapsed');
-}
-
-// Add a click event to run the mainNavToggle function
-navToggle.addEventListener('click', mainNavToggle);
-
-
-
 
 
 var prevScrollpos = window.pageYOffset;
@@ -327,7 +327,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("menu").style.top = "0";
   } else {
-    document.getElementById("menu").style.top = "-120px";
+    document.getElementById("menu").style.top = "-75px";
   }
   prevScrollpos = currentScrollPos;
 }

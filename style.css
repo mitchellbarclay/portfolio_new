@@ -108,9 +108,10 @@ h4:hover{
 #home_bg{
 
 
+
 }
 #video_bg{
-	background:black;
+	background:#101820FF;
 	background-attachment: fixed;
 	margin-bottom:1vw;
 	border-radius:60px 60px 20px 20px;
@@ -119,8 +120,7 @@ h4:hover{
 
 }
 #web_bg{
-	background:white;
-	background-attachment: fixed;
+
 
 }
 
@@ -146,7 +146,7 @@ h4:hover{
 
 
 #video{
-	background:#aebecf;
+	background:#333D79FF;
 	background-image:url('img/vid.png');
 	background-position:right;
 	background-repeat: no-repeat;
@@ -178,13 +178,13 @@ h4:hover{
 }
 
 #home{
-	background:#aebecf;
+	background:#4B878BFF;
 
 
 }
 
 #web{
-	background:white;
+	background:#E94B3CFF;
 	background-image:url('img/web.png');
 	background-position:right;
 	background-repeat: no-repeat;
@@ -197,7 +197,7 @@ h4:hover{
 
 
 
-#home, #video, #images, #web {
+#home, #video, #images, #web, #images2, #images3 {
 	margin-top:0vh;
 	overflow:hidden;
 }
@@ -215,8 +215,16 @@ h4:hover{
 #pp {
 	text-align:left;
 	font-size:13px;
-	margin-right:-35px;
+	margin-right:;
 	margin-bottom:0px;
+
+
+}
+
+#pp_parent{
+		background-color:white;
+	border-radius:50px;
+	padding:30px;
 
 }
 
@@ -224,10 +232,11 @@ h4:hover{
 	padding-top:90px;
 	padding-bottom:2vw;
 	text-align:center;
-	width:700px;
+	width:800px;
 	margin:auto;
 	overflow: hidden;
 	margin-top:70px;
+
 }
 
 /*#textback {
@@ -463,19 +472,19 @@ h4:hover{
 		flex-wrap: wrap;
 		padding: 5px 10px;
 		border-radius:40px;
-		background-color:#edf2fa;
+		background-color:#101820FF;
 	}
 
 	.row2 p{
-		color:black;
+		color:white;
 	}
 
 	.row2 h3 {
-		color:black;
+		color:white;
 	}
 
 	.row2:hover{
-		background-color:#aebecf;
+		background-color:#333333;
 		transition:0.2s;
 		cursor:pointer;
 		color:black;
@@ -787,10 +796,10 @@ h4:hover{
 		}
 
 		#home_bg{
-			background:#edf2fa;
+/*			background:#edf2fa;
 			border-style:solid;
 			border-color:#edf2fa;
-			border-width:40px;
+			border-width:40px;*/
 		}
 		.web_preview{
 			height:30vw;
