@@ -275,7 +275,7 @@ function feature21(){
 	fd.style.display = "block";
 	f.style.backgroundImage = "url('img/static/ph/jp8.jpg')";
 }
-function feature22(){
+function feature23(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
     document.getElementById("app").innerHTML = "Adobe Illustrator";
