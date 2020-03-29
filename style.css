@@ -117,11 +117,12 @@ h4:hover{
 	border-radius:60px 60px 20px 20px;
 	padding-bottom:1vw;
 	margin-top:1vw;
+	width:60%;
 
 }
 #web_bg{
 
-
+	width:60%;
 }
 
 #images{
@@ -407,7 +408,7 @@ h4:hover{
 		text-align:left;
 		padding-left:2vw;
 		padding-right:2vw;
-		width:85%;
+		width:80%;
 		margin:auto;
 	}
 
@@ -688,10 +689,10 @@ h1 {
 
 	.row2 {
 
-		width:85%;
 		padding-bottom:20px;
 		padding-top:10px;
 		margin:auto;
+		border-radius:20px;
 	}
 
 .contentBoxH {
@@ -701,6 +702,7 @@ h1 {
 	text-align:center;
 	display:block;
 	margin-top:0vw;
+
 }
 
 #pp_parent{
@@ -709,6 +711,7 @@ h1 {
 	padding:20px;
 	width:80%;
 	margin:auto;
+	border-radius:20px;
 
 }
 
@@ -717,26 +720,28 @@ h1 {
 		}
 
 		.contentBox {
-			width:80%;
-
+			width:85%;
 
 		}
 
 		#video_bg{
 
-				border-radius:20px 20px 10px 10px;
+				border-radius:20px 20px 20px 20px;
 	            padding-bottom:1vw;
 	            margin-top:2vw;
 	            margin-bottom:5vw;
+	            width:80%;
 		}
 
-		#video{
-			background-color:#475059;
-		}
+	
 
 
 		#web_bg{
 			background:none;
+
+
+	width:80%;
+
 		}
 
 

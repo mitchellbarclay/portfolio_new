@@ -302,6 +302,24 @@ function feature25(){
 	fd.style.display = "block";
 	f.style.backgroundImage = "url('img/static/gala2.png')";
 }
+function feature26(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Adobe Illustrator";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/fortune.png')";
+}
+function feature27(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Adobe Illustrator";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/cc.png')";
+}
 
 
 
