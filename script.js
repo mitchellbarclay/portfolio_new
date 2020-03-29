@@ -74,7 +74,7 @@ function stats2(){
 function feature1(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Adobe Photoshop";
+    document.getElementById("app").innerHTML = "Mock lingual translation app logo. Adobe Illustrator.";
 
 
 	f.style.display = "block";
@@ -86,7 +86,7 @@ function feature1(){
 function feature2(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Adobe Illustrator";
+    document.getElementById("app").innerHTML = "Mock bar logo. Adobe Illustrator.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -95,7 +95,7 @@ function feature2(){
 function feature3(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Adobe Illustrator";
+    document.getElementById("app").innerHTML = "Mock restaraunt logo. Adobe Illustrator.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
