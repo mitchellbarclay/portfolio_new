@@ -278,7 +278,7 @@ function feature21(){
 function feature23(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Adobe Illustrator";
+    document.getElementById("app").innerHTML = "Mock interior design company logo. Adobe Illustrator.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -287,7 +287,7 @@ function feature23(){
 function feature24(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Adobe Illustrator";
+    document.getElementById("app").innerHTML = "Mock staionery company logo. Adobe Illustrator.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -296,7 +296,7 @@ function feature24(){
 function feature25(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Adobe Illustrator";
+    document.getElementById("app").innerHTML = "Mock stationery company logo. Adobe Illustrator.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -305,7 +305,7 @@ function feature25(){
 function feature26(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Adobe Illustrator";
+    document.getElementById("app").innerHTML = "Mock wildlife non-profit logo. Adobe Illustrator.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
@@ -314,11 +314,20 @@ function feature26(){
 function feature27(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Adobe Illustrator";
+    document.getElementById("app").innerHTML = "Mock board-game company logo. Adobe Illustrator.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
 	f.style.backgroundImage = "url('img/static/cc.png')";
+}
+function feature28(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Mock Magazine logo. Adobe Illustrator";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/vicious.png')";
 }
 
 
