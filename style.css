@@ -449,7 +449,7 @@ h4:hover{
 	.column {
 		flex: 48%;
 		max-width: 48%;
-		padding: 0 0px;
+		padding: 0 4px;
 	}
 
 	.columnW {
