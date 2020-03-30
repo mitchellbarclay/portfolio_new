@@ -331,6 +331,8 @@ h4:hover{
 
 	#desc2 {
 
+		width:95%;
+
 	}
 
 	#travel {
@@ -447,27 +449,38 @@ h4:hover{
 	.column {
 		flex: 48%;
 		max-width: 48%;
-		padding: 0 4px;
+		padding: 0 0px;
 	}
 
 	.columnW {
-		flex: 30%;
-		max-width: 30%;
-		padding: 0 4px;
+		flex: 20%;
+		max-width: 20%;
+		padding-left: 0px;
 	}
 
 	.columnD {
-		flex: 66%;
-		max-width: 66%;
-		padding: 0 4px;
+		flex: 77%;
+		max-width: 77%;
+		padding: 0 0px;
+
 	}
 
 	.web_icon {
-		width:100%;
+
+		width:70%;
+
 		margin-left:2vw;
-		margin-top:0px
+		margin-top:0px;
+		border:solid;
+		border-color:#333333;
+		border-width:5px;
+		border-radius:2vw;
+		background:#333333;
+
 
 	}
+
+
 
 	.row2 {
 		display: flex;
@@ -475,6 +488,8 @@ h4:hover{
 		padding: 5px 10px;
 		border-radius:40px;
 		background-color:#101820FF;
+		height:auto;
+		align-items:center;
 	}
 
 	.row2 p{
@@ -891,22 +906,11 @@ h1 {
 			max-width: 45%;
 		}
 
-			.columnW {
-		flex: 100%;
-		max-width: 100%;
-		padding: 0 4px;
-		margin:auto;
-	}
 
-	.web_icon {
-		width:60%;
-	}
 
-	.columnD {
-		flex: 100%;
-		max-width: 100%;
-		padding: 0 4px;
-	}
+
+
+
 
 /*	.web_preview{
 		height:65vw;
