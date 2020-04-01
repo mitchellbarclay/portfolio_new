@@ -329,6 +329,34 @@ function feature28(){
 	fd.style.display = "block";
 	f.style.backgroundImage = "url('img/static/vicious.png')";
 }
+function feature29(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Mock soda brand packaging. Adobe Illustrator.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/pink1.png')";
+}
+function feature30(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Mock soda brand packaging. Adobe Illustrator, Autodesk Maya.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/pink2.png')";
+}
+function feature31(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Mock soda brand packaging. Adobe Illustrator, Autodesk Maya.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/pink3.png')";
+}
+
 
 
 
