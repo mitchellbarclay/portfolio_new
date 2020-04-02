@@ -136,6 +136,16 @@ h4:hover{
 	transition:max-height 2s;
 }
 
+#images:hover {
+	cursor: url('img/cursors/g.png'), auto;
+	  cursor: -webkit-image-set(
+   url('img/cursors/g.png') 1x,
+   url('img/cursors/g2.png') 2x), auto;
+}
+
+
+  
+
 #img1{
 	max-height:10000px;
 }
@@ -166,7 +176,39 @@ h4:hover{
 	background-attachment:fixed;
 	background-size:10%;
 	
+	
+}
 
+#images3:hover{
+	    cursor: url('img/cursors/c.png'), auto;
+  cursor: -webkit-image-set(
+   url('img/cursors/c.png') 1x,
+   url('img/cursors/c2.png') 2x), auto;
+}
+
+#home:hover{
+	cursor: url('img/cursors/h.png'), auto;
+	  cursor: -webkit-image-set(
+   url('img/cursors/h.png') 1x,
+   url('img/cursors/h2.png') 2x), auto;
+}
+#video:hover{
+	cursor: url('img/cursors/v.png'), auto;
+	  cursor: -webkit-image-set(
+   url('img/cursors/v.png') 1x,
+   url('img/cursors/v3.png') 2x), auto;
+}
+#web:hover{
+	cursor: url('img/cursors/w.png'), auto;
+	  cursor: -webkit-image-set(
+   url('img/cursors/w.png') 1x,
+   url('img/cursors/w2.png') 2x), auto;
+}
+#video_bg:hover{
+	cursor: url('img/cursors/v2.png'), auto;
+	  cursor: -webkit-image-set(
+   url('img/cursors/v2.png') 1x,
+   url('img/cursors/v4.png') 2x), auto;
 
 }
 
@@ -324,11 +366,7 @@ h4:hover{
 
 
 
-	.web_preview:hover{
-		background-size:109%;
-		filter:brightness(0.5);
 
-	}
 
 	#desc2 {
 
@@ -336,30 +374,6 @@ h4:hover{
 
 	}
 
-	#travel {
-		background-image:url("img/web/banner1.jpg");
-	}
-
-/*#travel:hover {
-	background-image:url("img/web/banner2.jpg");
-
-	}*/
-
-	#eye {
-		background-image:url("img/web/banner3.jpg");
-	}
-
-/*#eye:hover {
-	background-image:url("img/web/banner4.jpg");
-	}*/
-
-	#daytrip {
-		background-image:url("img/web/banner5.jpg");
-	}
-
-/*#daytrip:hover {
-	background-image:url("img/web/banner6.jpg");
-	}*/
 
 
 
@@ -463,22 +477,7 @@ h4:hover{
 		padding: 0 4px;
 	}
 
-	.columnHR{
-		flex:30%;
-		max-width:30%;
-		padding:0 4px;
-	}
 
-	.columnHR img{
-
-		width:100%;
-
-	}
-
-	.columnHL{
-		flex: 67%;
-		max-width:67%;
-	}
 
 	.columnW {
 		flex: 20%;
