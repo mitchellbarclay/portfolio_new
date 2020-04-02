@@ -106,10 +106,11 @@ h4:hover{
 
 }
 #home_bg{
-
-
+	width:70%;
 
 }
+
+
 #video_bg{
 	background:#101820FF;
 	background-attachment: fixed;
@@ -460,6 +461,23 @@ h4:hover{
 		flex: 48%;
 		max-width: 48%;
 		padding: 0 4px;
+	}
+
+	.columnHR{
+		flex:30%;
+		max-width:30%;
+		padding:0 4px;
+	}
+
+	.columnHR img{
+
+		width:100%;
+
+	}
+
+	.columnHL{
+		flex: 67%;
+		max-width:67%;
 	}
 
 	.columnW {
