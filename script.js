@@ -356,6 +356,15 @@ function feature31(){
 	fd.style.display = "block";
 	f.style.backgroundImage = "url('img/static/pink3.png')";
 }
+function feature32(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Custom macOS icon set. Adobe Illustrator.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/icons.png')";
+}
 
 
 
