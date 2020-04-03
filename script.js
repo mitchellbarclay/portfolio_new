@@ -86,11 +86,11 @@ function feature1(){
 function feature2(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Mock bar logo. Adobe Illustrator.";
+    document.getElementById("app").innerHTML = "Mock sushi restaraunt logo. Adobe Illustrator.";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/cb3.png')";
+	f.style.backgroundImage = "url('img/static/haiku.png')";
 }
 function feature3(){
 	var f = document.getElementById("feature");
