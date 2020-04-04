@@ -477,6 +477,12 @@ h4:hover{
 		padding: 0 4px;
 	}
 
+		.column5 {
+		flex: 47.5%;
+		max-width: 47.5%;
+		padding: 0 4px;
+	}
+
 
 
 	.columnW {
@@ -561,9 +567,21 @@ h4:hover{
 		margin-top: 8px;
 		vertical-align: middle;
 		width: 100%;
-		cursor:pointer;
+		cursor:pointer; 
 		transition:0.2s;
 		border-radius:10px;
+
+
+	}
+
+		.column5 img {
+		margin-top: 8px;
+		vertical-align: middle;
+		width: 100%;
+		cursor:pointer; 
+		transition:0.2s;
+				background:#f2f2f2;
+		border-radius:40px;
 
 	}
 
@@ -574,6 +592,7 @@ h4:hover{
 		cursor:pointer;
 		transition:0.2s;
 		border-radius:10px;
+
 
 	}
 
@@ -592,6 +611,8 @@ h4:hover{
 		width: 100%;
 		cursor:pointer;
 		transition:0.2s;
+		background:#f2f2f2;
+		border-radius:40px;
 
 	}
 
@@ -602,6 +623,7 @@ h4:hover{
 		cursor:pointer;
 		transition:0.2s;
 
+
 	}
 
 	.column2 img:hover {
@@ -609,6 +631,10 @@ h4:hover{
 	}
 
 	.column img:hover {
+		opacity:0.5;
+	}
+
+		.column5 img:hover {
 		opacity:0.5;
 	}
 
@@ -632,7 +658,7 @@ h4:hover{
 		animation:1s;
 		box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.9);
 		background-color: rgba(255, 255, 255, 0.9);
-		border-radius:2px 30px 2px 2px;
+		border-radius:2px 2px 2px 2px;
 	}
 
 	#feature img {
@@ -742,6 +768,10 @@ h1 {
 .title{
 	height:45px;
 }
+
+.column5 img{
+	border-radius:20px;
+	}
 
 
 
@@ -885,8 +915,19 @@ h1 {
 	@media screen and (max-width:600px){
 
 		.column {
-			flex: 100%;
-			max-width: 100%;
+			flex: 93%;
+			max-width: 93%;
+		}
+
+		.column5 {
+			flex: 93%;
+			max-width: 93%;
+		}
+
+		.column4 {
+			flex: 93%;
+			max-width: 93%;
+
 		}
 
 		.IMG_border{
@@ -894,8 +935,8 @@ h1 {
 		}
 
 		.column2 {
-			flex: 48%;
-			max-width: 48%;
+			flex: 49%;
+			max-width: 49%;
 		}
 
 		#meP {
