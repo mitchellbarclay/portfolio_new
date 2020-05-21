@@ -71,7 +71,7 @@ function stats2(){
 
 }
 
-function feature1(){
+function feature5(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
     document.getElementById("app").innerHTML = "Mock lingual translation app logo. Adobe Illustrator.";
@@ -110,14 +110,14 @@ function feature4(){
 	fd.style.display = "block";
 	f.style.backgroundImage = "url('img/static/pa1.png')";
 }
-function feature5(){
+function feature1(){
 	var f = document.getElementById("feature");
     var fd = document.getElementById("feature_darken");
-    document.getElementById("app").innerHTML = "Adobe Illustrator";
+    document.getElementById("app").innerHTML = "Freelance job - logo for online tutoring service. Adobe Illustrator";
 
 	f.style.display = "block";
 	fd.style.display = "block";
-	f.style.backgroundImage = "url('img/static/cb2.png')";
+	f.style.backgroundImage = "url('img/static/skt.png')";
 }
 function feature6(){
 	var f = document.getElementById("feature");
@@ -364,6 +364,87 @@ function feature32(){
 	f.style.display = "block";
 	fd.style.display = "block";
 	f.style.backgroundImage = "url('img/static/icons.png')";
+}
+function feature33(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Freelance job - Information sheet for online tutoring service. Adobe Illustrator.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/isheet.png')";
+}
+function feature34(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Freelance job - Information sheet for online tutoring service. Adobe Illustrator.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/asheet.jpg')";
+}
+function feature35(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Wellington Waterfront at night.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/night1.jpg')";
+}
+function feature36(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Night views from Evans Bay, Wellington.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/night2.jpg')";
+}
+function feature37(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Self portrait.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/self1.jpg')";
+}
+function feature38(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Portrait - Lucy Barclay.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/portraits1.jpg')";
+}
+function feature39(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Suburban lights. Karori, Wellington.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/night3.jpg')";
+}
+function feature40(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Ominous staircase(?). Karori, Wellington.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/night4.jpg')";
+}
+function feature41(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Portrait - Nancy Barclay.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/ph/portraits4.jpg')";
 }
 
 
