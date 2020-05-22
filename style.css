@@ -88,6 +88,7 @@ h4:hover{
 	text-align:center;
 	display:block;
 	margin-top:0vw;
+	margin-bottom:40px;
 }
 
 .contentBox {
@@ -286,7 +287,7 @@ h4:hover{
 
 #face {
 	float:right;
-	height:400px;
+	height:350px;
 	clear:left;
 	margin-top:-55px;
 }
