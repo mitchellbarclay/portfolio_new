@@ -18,7 +18,7 @@
 	width:100%;
 	color:white;
 	background-color:rgba(0,0,0,0.88);
-	height:90px;
+	height:80px;
 	text-align:center;
 	padding:2px;
 
@@ -35,6 +35,16 @@
 	color:white;
 }
 
+.header {
+	height:100%;
+}
+
+.logo{
+	height:100%;
+	max-width:100%;
+
+}
+
 h2 {
 	font-size:10px;
 	font-weight:300;
@@ -44,20 +54,38 @@ h2 {
 h1{
 	font-size:60px;
 	margin:0px;
+	font-weight:800;
+
 }
 
 h4{
-	font-size:15px;
+	font-size:18px;
 	display:inline;
 	margin-top:0;
 	margin-left:10px;
 	margin-right:10px;
-	background:grey;
+
 	transition:0.2s;
 }
 
-#menu a {
+#menu_buttons a {
 	color:white;
+}
+
+#menu_buttons{
+	width:100%;
+	color:white;
+	background-color:#34555c;
+	height:25px;
+	text-align:center;
+	padding:2px;
+	position:fixed;
+	transition: top 0.5s;
+	margin-top:80px;
+	top:0;
+	transition-timing-function: ease-out;
+
+
 }
 
 h4:hover{
@@ -70,13 +98,14 @@ h4:hover{
 	width:100%;
 	color:white;
 	background-color:rgba(0,0,0,0.88);
-	height:110px;
+	height:80px;
 	text-align:center;
 	padding:2px;
 	position:fixed;
 	transition: top 0.5s;
 	top:0;
 	transition-timing-function: ease-out;
+
 
 }
 
@@ -796,7 +825,6 @@ body {
 
 	#menu{
 		height:80px;
-		margin-top:-10px;
 	}
 
 	.contentBox {
@@ -936,7 +964,7 @@ body {
 	#meP {
 		width:100%;
 		margin-bottom:20px;
-		margin-top:75px;
+		margin-top:120px;
 	}
 
 
@@ -1013,6 +1041,12 @@ body {
 
 	#menu h4{
 		font-size:12px;
+	}
+
+	h4{
+		font-size:15px;
+		margin-left:5px;
+		margin-right:5px;
 	}
 
 }
