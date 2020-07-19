@@ -395,6 +395,25 @@ function feature41(){
 	f.style.backgroundImage = "url('img/static/ph/portraits4.jpg')";
 }
 
+function feature42(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Funeral order of service designed for a family member.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/funeral1.jpg')";
+}
+function feature43(){
+	var f = document.getElementById("feature");
+    var fd = document.getElementById("feature_darken");
+    document.getElementById("app").innerHTML = "Funeral order of service designed for a family member.";
+
+	f.style.display = "block";
+	fd.style.display = "block";
+	f.style.backgroundImage = "url('img/static/funeral2.jpg')";
+}
+
 
 
 
