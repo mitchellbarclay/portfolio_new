@@ -459,7 +459,7 @@ a{
 
 .item-window{
 
-  width: 70vw;
+  width: 60vw;
   height: 70vh;
   background:white;
   margin-top:50px;
@@ -471,6 +471,8 @@ a{
   border-radius:0px 0px 20px 20px;
   background:rgba(53, 74, 82, 0.98);
 }
+
+
 
 .item-window::after{
   content:"Pull corner to resize window ⤡";
