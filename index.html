@@ -1,545 +1,201 @@
 <!DOCTYPE html>
-<html> 
+<html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
-	
-	<link rel="icon" type="image/png" href="mb.png">
-	<title> MB | Portfolio </title>
+	<script src="myscripts.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+
+	<title>MB | Portfolio</title>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
 </head>
-<body>
+
+<body id="index-body">
 
 
 
-	<!-- CONTENT -->
+	<div id="outerContainer">
+		<div id="container">
 
-	<div id = "content">
+			<div class="topbar">
+				<div class="topbar-text">
+					<img src="images/icons/mb_logo.png">
+				</div>
+				<div class=topbar-icons>
+					<img src="images/icons/wifi.png">
+					<img src="images/icons/battery.png">
+					<p><span id="datetime"></span></p>
 
-		<!-- HOME PAGE -->
+					<script>
+					var dt = new Date();
+					document.getElementById("datetime").innerHTML = (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+					</script>
+				</div>
+			</div>
 
-		<div id = "home">
 
 
-			<div class = "contentBoxH" id = "home_bg">
+			<div class="icons">
+				<div class="icon" id="icon1">
+					<a href="graphic.html" target="search_iframe" onclick="openWindow()"><img src="images/icons/logos_icon.png"></a>
+					<p>Logos</p>
+				</div>
 
-				<div id="meP">
-					<div id ="pp_parent">
-						<img src = "img/home/me2.png" id = "face"> <br>
-						<p id = "pp"> 
-							Hi there! I am a digital designer based in Wellington, New Zealand with a versatile set of creative skills, ranging from graphic design, animation, web design to video editing and photography. I studied media design at Wellington University and am currently working in the freelance space.
+
+
+
+
+				<div class="icon" id="icon2">
+					<a href="ps2/arrangement.html" target="search_iframe" onclick="openWindow()"><img src="images/icons/character_icon.png"></a>
+					<p>Character<br>Creator</p>
+
+				</div>
+
+				<div class="icon" id="icon3" onclick="openWindow3()">
+
+					<img src="images/icons/web_icon.png">
+					<p>Web design</p>
+
+				</div>
+
+				<div class="icon" id="icon4">
+
+					<a href="videoplayer.html" target="search_iframe" onclick="openWindow()"><img src="images/icons/video_icon.png"></a>
+					<p>Videos</p>
+
+				</div>
+
+
+				<div class="icon" id="icon6">
+
+					<a href="art.html" target="search_iframe" onclick="openWindow()"><img src="images/icons/art_icon.png"></a>
+					<p>Art & Illustration</p>
+
+				</div>
+				<div class="icon" id="icon7">
+
+					<a href="social.html" target="search_iframe" onclick="openWindow()"><img src="images/icons/social_icon.png"></a>
+					<p>Social Media & Advertising</p>
+
+				</div>
+			</div>
+
+
+
+			<div id="about-me-container">
+				<div class="about-me-inner">
+					<div>
+						<p>Hi, I’m Mitchell. I'm a digital designer based in Wellington, New Zealand. <br><br>
+
+							My skills cover a versatile range of mediums, from animation and video design, graphic design and illustration, through to web design and front-end web development. I built this portfolio from scratch as a web-app to demonstrate this range. I am a creative at heart so I'm always looking at different ways to communicate my design vision.
+
 							<br><br>
-
-If you’re interested in contacting me or checking out my work on other platforms, the relevant links are below. I am open to freelance jobs, so hit me up if you're keen to work together. Cool, well, I think that’s about everything. Stay safe, love you.
-
+							I've worked as an in-house designer and Digital Media Manager for education company StudyTime since 2020, and have contracted as a freelance designer prior and during this time. I also have a double degree of a Bachelor of Design Innovation and a Bachelor of Commerce, majoring in Media Design and Information Systems respectively.
 							<br><br>
-
-						</p>
-						<a href="https://instagram.com/mitchellbarclay">
-							<button><img src = "img/home/insta.png"><p class="long"> Instagram</p><p class = "short">Insta</p></button>
-						</a>
-						<a href="mailto:mitchellbarclay2@gmail.com">
-							<button><img src = "img/home/email.png"><p> Email</p></button>
-						</a>
-						<a href="https://www.youtube.com/channel/UC84z2ANaMUIRynvFM5_Qo9w">
-							<button><img src = "img/home/yt.png"><p class="long"> YouTube</p><p class = "short">YT</p></button>
-						</a>
-						<a href="https://mitchellbarclay.design/cv.pdf"><button>
-							<img src = "img/home/cv.png"><p class="long"> Download PDF</p><p class="short"> PDF </p></button>
-						</a>
-					</div>
-
-				</div>
-			</div>
-
-		</div>
-
-<!-- 		<div id = "home">
+							If you'd like to learn more, feel free to contact me, or check out my attached socials.
 
 
-	    <div class = "contentBoxHome" id = "home_bg">
-
-	    	<div class = "row">
-	    		<div class = "columnLeft">
-	    		</div>
-	    		<div class = "columnRight">
-	    		</div>
-	    	</div>
-
-
-	    </div>
-	    </div> -->
-
-		<!-- IMAGE PAGE -->
-
-
-
-		<div id = "images" class = "nav">
-
-			<div class = "title" id = "toggle">
-				<!-- <h1> GRAPHIC </h1> -->
-				<img src="titles/g.svg" class="header">
-			</div>
-
-
-
-			<div class = "contentBox" id = "image_bg">
-				<br>
-				<div class="row">
-					<div class="column2">
-						<img src="img/static/thumb/skt.png" onclick="feature1();">	
-						<img src="img/static/thumb/p3.png" onclick="feature3();">
-
-					</div>
-					<div class="column2">
-
-						<img src="img/static/thumb/gala2.png" onclick="feature25();">
-						<img src="img/static/thumb/nika1.png" onclick="feature5();">
-						
-					</div>
-					<div class="column2">
-						<img src="img/static/thumb/star.png" onclick="feature23();">
-						<img src="img/static/thumb/gala.png" onclick="feature24();">
-
-						
-					</div>
-					<div class="column2">
-
-						<img src="img/static/thumb/haiku.png" onclick="feature2();">
-						<img src="img/static/thumb/fortune.png" onclick="feature26();">
-					</div>
-				</div>
-				<div class = "row">
-					<div class ="column5">
-						<img src="img/static/thumb/vicious.png" onclick="feature28();">
-					</div>
-					<div class ="column5">
-						<img src="img/static/thumb/cc.png" onclick="feature27();">
-					</div>
-				</div>
-				<div class="row">
-					<div class="column4">
-						<img src="img/static/thumb/pink1.png" onclick="feature29();">
-					</div>
-				</div>
-				<div class="row">
-					<div class="column5">
-						<img src="img/static/thumb/pink2.png" onclick="feature30();">
-					</div>
-                    <div class="column5">
-						<img src="img/static/thumb/pink3.png" onclick="feature31();">
-					</div>
-				</div>
-
-								<div class="row">
-					<div class="column6">
-						<img src="img/static/thumb/isheet.png" onclick="feature33();">
-					</div>
-                    <div class="column6">
-						<img src="img/static/thumb/asheet.jpg" onclick="feature34();">
-					</div>
-				</div>
-
-								<div class="row">
-					<div class="column4">
-						<img src="img/static/thumb/icons.png" onclick="feature32();">
-					</div>
-				</div>
-
-												<div class="row">
-					<div class="column6">
-						<img src="img/static/thumb/funeral1.jpg" onclick="feature42();">
-					</div>
-                    <div class="column6">
-						<img src="img/static/thumb/funeral2.jpg" onclick="feature43();">
+						</p></div>
+						<div class="close-about"></div>
 					</div>
 				</div>
 
 
-				<br><br><br>
-			</div>
-		</div>
-
-
-		<!-- PHOTO PAGE -->
-
-		<div id = "images3">
-			<div class = "title">
-				<!-- <h1> PHOTOGRAPHY </h1> -->
-				<img src="titles/p.svg" class="header">
-
-			</div>
-			<div class = "contentBox" id = "image_bg">
-				<br>
-				<div class="row">
-					<div class="column">
-						<img src="img/static/ph/thumbs/night1.jpg" onclick="feature35();">
-						<img src="img/static/ph/thumbs/night2.jpg" onclick="feature36();">
-						<img src="img/static/ph/thumbs/self1.jpg" onclick="feature37();">
-						<img src="img/static/ph/thumbs/portraits1.jpg" onclick="feature38();">
-						<img src="img/static/ph/thumbs/birb.jpg" onclick="feature12();">
-						<img src="img/static/ph/thumbs/jp1.jpg" onclick="feature13();">
-						<img src="img/static/ph/thumbs/jp7.jpg" onclick="feature14();">
-						<img src="img/static/ph/thumbs/rain.jpg" onclick="feature15();">
-						<img src="img/static/ph/thumbs/power.jpg" onclick="feature16();">
-
-
-					</div>
-					<div class="column">
-						<img src="img/static/ph/thumbs/night3.jpg" onclick="feature39();">
-						<img src="img/static/ph/thumbs/night4.jpg" onclick="feature40();">
-						<img src="img/static/ph/thumbs/portraits4.jpg" onclick="feature41();">
-						<img src="img/static/ph/thumbs/jp5.jpg" onclick="feature17();">
-						<img src="img/static/ph/thumbs/jp2.jpg" onclick="feature18();">
-						<img src="img/static/ph/thumbs/jp3.jpg" onclick="feature19();">
-						<img src="img/static/ph/thumbs/jp6.jpg" onclick="feature20();">
-						<img src="img/static/ph/thumbs/jp8.jpg" onclick="feature21();">
-	
-
-					</div>
-				</div>
-				<br><br><br>
-			</div>
-		</div>
-
-		<!-- VIDEO PAGE -->
-
-		<div id = "video">
-			<div class = "title">
-				<!-- <h1> VIDEO </h1> -->
-				<img src="titles/v.svg" class="header">
-			</div>
-
-			<div class = "contentBox" id = "video_bg">
-
-				<iframe  class="video" src="https://www.youtube-nocookie.com/embed/xY_UbaCWg90?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<div class ="description"> <h3> Pink Smoke Advert </h3>
-					<p class = "bigp">  A short motion design project to advertise a mock soda brand.  
-					</p>
-					<p class ="smallp">
-						<b>Directed, written & animated by:</b> Mitchell Barclay <br>
-						<b> Music by:</b> JR Tundra  <br>
-						<b>Applications used:</b> Adobe Premiere, Adobe After Effects, Adobe Illustrator, Autodesk Maya 
-					</p>
-					<br>
-				</div>
-			</div>
-
-			<div class = "contentBox" id = "video_bg">
-
-				<iframe  class="video" src="https://www.youtube-nocookie.com/embed/UCwSsbI_GRU?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<div class ="description"> <h3> Timerec promo </h3>
-					<p class = "bigp">  This piece is an animated promotional video commissioned for the mobile application Timerec. I used primarily motion graphics supplemented with 3D animation to detail the app's features in a colourful and engaging way.
-					</p>
-					<p class ="smallp">
-						<b>Directed, written & animated by:</b> Mitchell Barclay <br>
-						<b> Music by:</b> Vibe Mountain  <br>
-						<b>Applications used:</b> Adobe Premiere, Adobe After Effects, Adobe Illustrator, Adobe Photoshop, Autodesk Maya 
-					</p>
-					<br>
-				</div>
-			</div>
-
-			<div class = "contentBox" id = "video_bg">
-
-				<iframe  class="video" src="https://www.youtube-nocookie.com/embed/yk2TY04RsIk?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<div class ="description"> <h3> EXCC Covid-19 Relief Promo </h3>
-					<p class = "bigp">  This is a video promoting Executive Coaching & Consulting LTD's LMS service. I provided the animation for the script by Jason Dinan - founder and Principal of the company.
-					</p>
-					<p class ="smallp">
-						<b>Animated by:</b> Mitchell Barclay <br>
-						<b> Written by:</b> Jason Dinan <br>
-						<b> Music by:</b> Biz Baz Studio <br>
-						<b>Applications used:</b> Adobe Premiere, Adobe After Effects, Adobe Illustrator 
-					</p>
-					<br>
-				</div>
-			</div>
-
-			<div class = "contentBox" id = "video_bg">
-
-				<iframe  class="video" src="https://www.youtube-nocookie.com/embed/ElkHo1-FRtE?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<div class ="description"> <h3> Office Space </h3>
-					<p class = "bigp">  Office Space is a short film that uses mutliple mediums (2D animation, CGI & live action) to create a sense of 
-						presence in a fictional world.  
-					</p>
-					<p class="smallp">
-						<b>Directed, written & animated by:</b> Mitchell Barclay <br>
-						<b> Music by:</b> Mitchell Barclay <br>
-						<b>Applications used:</b> Adobe Premiere, Adobe After Effects, Adobe Photoshop, Autodesk Maya
-					</p>
-					<br>
-				</div>
-			</div>
-
-			<div class = "contentBox" id = "video_bg">
-
-				<iframe  class="video" src="https://www.youtube-nocookie.com/embed/qfoEH1V6amk?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<div class ="description"> <h3> Bumper Animation </h3>
-					<p class = "bigp">  A short animation designed for the purpose of describing my own personal aesthetic through
-						3 brand pillars - wistful, graphic & surreal. 
-					</p>
-					<p class="smallp">
-						<b>Directed, written & animated by:</b> Mitchell Barclay <br>
-						<b> Music by:</b> Mitchell Barclay <br>
-						<b>Applications used:</b> Adobe Premiere, Adobe After Effects, Adobe Photoshop
-					</p>
-					<br>
-				</div>
-
-			</div>
-
-			<div class = "contentBox" id = "video_bg">
-
-				<iframe  class="video" src="https://www.youtube-nocookie.com/embed/ILQN4sO7kJo?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<div class ="description"> <h3> AR DRIVE </h3>
-					<p class = "bigp"> With AR DRIVE I wanted to explore how an augmented reality interface could be used to allow us to have crazy or potentially dangerous experiences without the real world consequences. A short film composed of a 3D environment animated in Maya with live action footage shot on a GoPro.
-					</p>
-					<p class="smallp">
-						<b>Directed, written & animated by:</b> Mitchell Barclay <br>
-						<b> Music by:</b> Mitchell Barclay  <br>
-						<b>Applications used:</b> Adobe Premiere, Adobe After Effects, Adobe Photoshop, Autodesk Maya
-					</p>
-					<br>
-				</div>
-
-			</div>
-
-			<div class = "contentBox" id = "video_bg">
-
-				<iframe  class="video" src="https://www.youtube-nocookie.com/embed/Jamh4MS9vr0?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<div class ="description"> <h3> Confusion </h3>
-					<p class = "bigp">  Confusion is a short film that incorporates a mixture of stop-motion animation and live-action
-						footage in order to create a surreal environment. The goal was to evoke the emotion of confusion in
-						the viewer in a 30 second video.
-					</p>
-					<p class="smallp">
-						<b>Directed, written & animated by:</b> Mitchell Barclay <br>
-						<b> Music by:</b> Karunarathna Divulgane  <br>
-						<b>Applications used:</b> Adobe Premiere, Adobe After Effects, Adobe Photoshop
-					</p>
-					<br>
-				</div>
-
-			</div>
-
-			<div class = "contentBox" id = "video_bg">
-
-				<iframe  class="video" src="https://www.youtube-nocookie.com/embed/Bnp47924C3c?modestbranding=1&rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<div class ="description"> <h3> Android Tears </h3>
-					<p class = "bigp">  Android Tears is a music video that explores the theme of artificial intelligence
-						and how that may change our perception of cosciousness and emotions as humans. The video follows
-						the narrative of a robot that expresses feelings of lonliness, and uncertainty about the meaning of life.
-					</p>
-					<p class ="smallp">
-						<b>Directed, written & animated by:</b> Mitchell Barclay <br>
-						<b> Music & lyrics by:</b> Mitchell Barclay  <br>
-						<b>Applications used:</b> Adobe Premiere, Adobe After Effects, Adobe Photoshop 
-					</p>
-					<br>
-				</div>
-			</div>
 
 
 
-		</div>
-
-
-
-
-		<!-- WEB PAGE -->
-
-		<div id="web">
-			<div class = "title">
-				<!-- <h1> WEB </h1> -->
-				<img src="titles/w.svg" class="header">
-			</div>
-
-			<br>
-			<div class = "contentBox" id = "web_bg">
-
-				<a href="https://mitchellbarclay.design/neuroatom.pdf">
-
-
-					<div class = "row2">
-
-						<div class = "columnW">
-
-
-							<img src = "img/web/icon.png" class = "web_icon">
-
-
+				<div id="dock">
+					<div class="about-button-container">
+						<div class="about-button"onclick="slide()">
+							<img src="images/icons/about_icon.png">
+							<h3> About Me </h3>
 						</div>
+					</div>
+				</div>
 
-						<div class = "columnD">
+				<div class="links">
+					<a href="mailto:mitchellbarclay2@gmail.com" class="links-links"><img src="images/icons/link_email.png"></a>
+					<a href="https://www.linkedin.com/in/mitbarclay/" class="links-links"><img src="images/icons/link_in.png"></a>
+					<a href="https://instagram.com/mitchellbarclay" class="links-links"><img src="images/icons/link_ig.png"></a>
+				</div>
 
 
-							<div class ="description" id = "desc2"> <h3> Neuroatom </h3>
-								<p class = "bigp">  Mock website designed to demonstrate my skills in User Interface web design.
-								</p>
-								<p class="smallp">
-									<b> Design:</b> Mitchell Barclay <br>
-								</p>
 
+				<div id="item1" class="item window">
+
+					<div class="close" onclick="closer()">
+						<a href="load.html" target="search_iframe">×</a>
+					</div>
+
+					<div class="item-window">
+
+						<div class="window-inner" id="window-inner1">
+							<div class="webframe-container" >
+								<div class="webframe-inner-container">
+									<iframe src="graphic.html" class="window-iframe" title="description" name="search_iframe"></iframe>
+								</div>
 							</div>
 						</div>
-					</div>
-
-				</a>
-
-				<br>
-
-				<a href="https://mitchellbarclay.github.io/traveltrack">
-
-					<div class = "row2">
-
-						<div class = "columnW">
 
 
-							<img src = "img/web/icon.png" class = "web_icon">
-
-
+						<div class="window-inner" id="window-inner2">
+							<!-- <div class="character-container" >
+							<div class="character-inner-container">
+							<iframe src="ps2/arrangement.html" class="window-iframe" title="description"></iframe>
 						</div>
+					</div> -->
+				</div>
 
-						<div class = "columnD">
+				<div class="window-inner" id="window-inner3">
 
 
-							<div class ="description" id = "desc2"> <h3> Travel Tracker </h3>
-								<p class = "bigp">  Travel Track is a website designed to outline a concept for a mobile application. Designed to be responsive with different layouts for tablet, phone and desktop.  
-								</p>
-								<p class="smallp">
-									<b>Code:</b> Mitchell Barclay <br>
-									<b> Design:</b> Mitchell Barclay <br>
-								</p>
-
-							</div>
+					<div class="tabs-container">
+						<div class="tab">
+							<a class="tab1 active-tab" href="st_home.html" target="web_iframe" onclick="active1()">StudyTime</a>
+							<a class="tab2" href="store.html" target="web_iframe" onclick="active2()">Store</a>
+							<a class="tab3" href="academy.html" target="web_iframe" onclick="active3()">Academy</a>
 						</div>
 					</div>
+					<div class="webframe-container">
+						<div class="webframe-inner-container">
+							<iframe src="st_home.html" class="window-iframe" title="description" name="web_iframe"></iframe>
 
-				</a>
-
-				<br>
-
-				<a href="https://mitchellbarclay.github.io/project3/">
-
-					<div class = row2>
-
-						<div class = columnW>
-
-							<img src = "img/web/icon.png" class = "web_icon">
-
-						</div>
-
-						<div class = columnD>
-
-							<div class ="description" id = "desc2"> <h3> eyePhone </h3>
-								<p class = "bigp">  A parody website that takes inspiration from Apple's layout and products to make social commentary on privacy in the digital age. This includes a demo user interface of the imagined product.
-								</p>
-								<p class="smallp">
-									<b>Code:</b> Mitchell Barclay <br>
-									<b> Design:</b> Mitchell Barclay <br>
-								</p>
-
-							</div>
-
-						</div>
-
-					</div>
-
-				</a>
-
-				<br>
-
-				<a href="https://mitchellbarclay.github.io/pro3/index.html">
-
-
-					<div class = "row2">
-
-
-
-						<div class = columnW>
-
-							<img src = "img/web/icon.png" class = "web_icon">
-
-						</div>
-
-						<div class = columnD>
-							<div class ="description" id = "desc2"> <h3> Day Trip </h3>
-								<p class = "bigp">  Developed as part of a team, Day Trip is a mobile web application that chooses a random activity suggestion and gives information on nearby locations.
-								</p>
-								<p class="smallp">
-									<b>Code:</b> Mitchell Barclay, CJ Ekanayake, Jackie Xu <br>
-									<b> Design:</b> Mary Richards, CJ Ekanayake, Mitchell Barclay <br>
-								</p>
-								<br>
-							</div>
 						</div>
 					</div>
 
 				</div>
 
-			</a>
 
-			<br>
-
-		</div>
+				<div class="window-inner" id="window-inner4">
 
 
 
-		<div id = "footer">
-			<h2> All Rights Reserved © 2019 | Mitchell Barclay </h2>
-		</div>
+				</div>
 
-		<div id = "menu">
-
-			<!-- <h1> MITCHELL BARCLAY </h1> -->
-			<img src="titles/m.svg" class ="logo">
-<!-- 			<a href="#home"><h4> HOME </h4></a> 
-			<a href="#images"><h4> GRAPHIC </h4></a> 
-			<a href="#images3"><h4> PHOTO </h4></a> 
-			<a href="#video"><h4> VIDEO </h4></a> 
-			<a href="#web"><h4> WEB </h4></a>  -->
-		</div>
-		<div id = "menu_buttons">
-			<a href="#home"><h4> HOME </h4></a> 
-			<a href="#images"><h4> GRAPHIC </h4></a> 
-			<a href="#images3"><h4> PHOTO </h4></a> 
-			<a href="#video"><h4> VIDEO </h4></a> 
-			<a href="#web"><h4> WEB </h4></a> 
-		</div>
-
-		<div id = "feature_darken">
-		</div>
-		<div id = "feature" onmouseover = "stats();" onmouseout = "stats2();">
-			<div id = "featureStats">
-				<p id ="app">  </p>
 			</div>
-			<img src="img/static/cross.png" onclick="closer();" id="cross">
+
 		</div>
 
-	</div>
 
-	<!-- END CONTENT -->
+		<script src="myscripts.js"></script>
+	</body>
 
-	<!-- Default Statcounter code for portfolio http://mitchellbarclay.design -->
-	<script type="text/javascript">
-		var sc_project=11620523; 
-		var sc_invisible=1; 
-		var sc_security="00df947c"; 
-	</script>
-	<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async>
-	</script>
-	<noscript>
-		<div class="statcounter">
-			<a title="Web Analytics" href="https://statcounter.com/" target="_blank">
-				<img class="statcounter" src="https://c.statcounter.com/11620523/0/00df947c/1/"alt="Web Analytics">
-			</a>
-		</div>
-	</noscript>
-	<!-- End of Statcounter Code -->
-
-</body>
-
-</html>
+	</html>

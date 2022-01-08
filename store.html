@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+	<link rel="stylesheet" href="style.css">
+	<script src="myscripts.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+	<style>
+
+
+
+</style>
+
+</head>
+
+
+<body class="iframe-body" style="margin:0px">
+
+	<div class="stitched-website">
+		<img src="images/web_store/store_menu2.jpg" class="web-menu-top">
+		<img src="images/web_store/store_menu1.jpg" class="web-menu">
+		<img src="images/web_store/store_1.jpg" class ="page-preview">
+		<img src="images/web_store/store_2.jpg" class ="page-preview">
+		<img src="images/web_store/store_3.jpg" class ="page-preview">
+		<img src="images/web_store/store_4.jpg" class ="page-preview">
+		<img src="images/web_store/store_5.jpg" class ="page-preview">
+
+
+
+
+
+	</div>
+
+	<div class="menu-bar" style="position:fixed; width:100vw;">
+		<div class="search-bar">
+			<p>	ᐸ </p> <p>ᐳ</p>
+			<div class="url-bar">
+				<p>store.studytime.co.nz</p><a href="https://store.studytime.co.nz" class="web-links" target="_blank">View live site</a>
+			</div>
+
+		</div>
+		<div id="website-info" class="info-closed" onclick="webInfo()">
+
+			<div class = "web-info-inner">
+				<p></p>
+			</div>
+
+		</div>
+	</div>
+
+	<script>
+
+	var infoslide = document.getElementById("website-info");
+
+	function webInfo(){
+
+
+		if (infoslide.style.width !== "60vw") {
+			infoslide.style.width = "60vw";
+			infoslide.classList.add('info-open')
+			infoslide.classList.remove('info-closed');
+
+		} else {
+			infoslide.style.width = "0vw";
+			infoslide.classList.remove('info-open')
+			infoslide.classList.add('info-closed');
+
+		}
+
+
+	}
+
+	</script>
+
+</body>
+
+</html>
