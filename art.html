@@ -66,35 +66,53 @@
 	.prev, .next {
 		cursor: pointer;
 		position: absolute;
-		top: 0%;
-		height:100%;
-		width:10vw;
+		top: 50%;
+		height:60px;
+		width:60px;
 		color: white;
 		font-weight: bold;
-		font-size: 40px;
 		transition: 0.6s ease;
-		border-radius: 0px;
+		border-radius: 100%;
 		user-select: none;
-		background-color: rgba(0,0,0,0.1);
+		background-color: #63D8B9;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 		display:flex;
+		transform: translate(0%, -50%);
+
 	}
 
 	.prev p, .next p {
 		margin:auto;
+		font-size: 30px;
+
 	}
 
 	.buttons{
-		height:100%;
 	}
 	/* Position the "next button" to the right */
 	.next {
-		right: 0%;
+		right: 5%;
 
+	}
+
+	.prev{
+		left: 5%;
 	}
 
 	/* On hover, add a black background color with a little bit see-through */
 	.prev:hover, .next:hover {
-		background-color: rgba(0,0,0,0.3);
+		background-color: #51b59a;
+		height: 80px;
+		width: 80px;
+		border: solid white 10px;
+	}
+
+	.next:hover {
+		margin-right: -10px;
+	}
+
+	.prev:hover{
+		margin-left: -10px;
 	}
 
 
@@ -356,9 +374,7 @@
 			<img src="images/art/st_mash2.png">
 		</div>
 
-		<div class="mySlides2 fade">
-			<img src="images/art/doocey.png">
-		</div>
+
 
 		<div class="buttons">
 			<!-- Next and previous buttons -->
